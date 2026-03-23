@@ -1,11 +1,12 @@
 nav {
   background-color: blue;
   color: white;
-  ul {
-    overflow: hidden;
-    list-style-type: none;
-    display: flex;
-  }
+}
+
+nav ul {
+  overflow: hidden;
+  list-style-type: none;
+  display: flex;
 }
 
 a:link,
