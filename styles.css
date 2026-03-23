@@ -1,8 +1,11 @@
 nav {
   background-color: blue;
-  overflow: hidden;
-  list-style-type: none;
-  display: flex;
+  color: white;
+  ul {
+    overflow: hidden;
+    list-style-type: none;
+    display: flex;
+  }
 }
 
 a:link,
