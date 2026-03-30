@@ -1,6 +1,17 @@
-nav {
-  background-color: gray;
-  color: white;
+html {
+  background: #cfcfcf;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 207, 207, 1) 0%,
+    rgba(103, 142, 214, 1) 53%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: rgb(0, 0, 0);
+}
+
+#navigation {
+  background-color: #9eb7e5;
+  color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -18,13 +29,28 @@ a:active {
   text-decoration: none;
 }
 
-body {
-  background-color: bisque;
-}
-#main {
+#images {
+  background-color: black;
   display: flex;
-  flex-direction: column;
-  padding: 5px;
-  border: 5px;
-  margin: 5px;
+  justify-content: center;
+  border: solid 20px black;
+}
+
+body {
+  background-color: #e8e5da;
+  text-align: center;
+  margin: 150px;
+  border: 50px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  border: solid black;
+  background-color: #e8e5da;
+}
+ul {
+  border: solid black;
+  color: rgb(0, 0, 0);
+  background-color: #e8e5da;
+  list-style-type: none;
 }
