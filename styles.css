@@ -1,4 +1,6 @@
 html {
+  display: flex;
+  justify-content: center;
   background: #cfcfcf;
   background: linear-gradient(
     90deg,
@@ -10,6 +12,8 @@ html {
 }
 
 #navigation {
+  display: flex;
+  justify-content: center;
   background-color: #9eb7e5;
   color: rgb(0, 0, 0);
 }
@@ -18,7 +22,16 @@ nav ul {
   overflow: hidden;
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  border: none;
+}
+nav li {
+  background-color: #cdc392;
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+  padding: 5px;
+  margin: 5px;
 }
 
 a:link,
@@ -37,15 +50,18 @@ a:active {
 }
 
 body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
   background-color: #e8e5da;
   text-align: center;
-  margin: 150px;
-  border: 50px;
+  width: 800px;
+  height: 1000px;
 }
 
 p {
   color: rgb(0, 0, 0);
-  border: solid black;
   background-color: #e8e5da;
 }
 ul {
